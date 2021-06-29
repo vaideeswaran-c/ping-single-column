@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Ping coming soon page</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<img src="/images/logo.svg" alt="Logo" class="logo" />
+			<h1>We are launching <span>soon!</span></h1>
+			<p>Subscribe and get notified</p>
+			<form>
+				<fieldset>
+					<input
+						type="text"
+						class="email"
+						id="email"
+						name="email"
+						placeholder="Your email address..."
+					/>
+					<span id="small" class="small d-none"
+						>Please provide a valid email address</span
+					>
+				</fieldset>
+				<fieldset>
+					<button onclick="handleemail(event)">Notify Me</button>
+				</fieldset>
+			</form>
+			<img src="/images/illustration-dashboard.png" alt="dashboard" class="dashboard" />
+		</main>
+		<footer>
+			<nav>
+				<ul>
+					<li><i class="fab fa-facebook-f fa-xs"></i></li>
+					<li><i class="fab fa-twitter fa-xs"></i></li>
+					<li><i class="fab fa-instagram fa-xs"></i></li>
+				</ul>
+			</nav>
+			<span class="rights">&copy; Copyright Ping. All rights reserved.</span>
+		</footer>
+		<script src="app.js"></script>
+	</body>
+</html>
