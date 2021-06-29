@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-ping-single-column-component-T4KUp5hCH)
+-   Live Site URL: [Netlify Live Site](https://crimson-ping.netlify.app/)
 
 ## My process
 
